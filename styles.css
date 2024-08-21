@@ -1,0 +1,95 @@
+/* Estilos globales para el cuerpo del documento */
+body {
+    font-family: "New Amsterdam", sans-serif;
+    text-align: center;
+}
+
+/* Estilos para el encabezado */
+header {
+    font-family: "Bona Nova SC", serif;
+    background-image: url("312.jpeg");
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Estilos para la barra de navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background-color: #000000; /* Fondo negro */
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0;
+}
+
+nav ul li a {
+    color: #FFFFFF; /* Color blanco para el texto */
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s; /* Transición para efectos hover */
+}
+
+/* Efecto hover para los enlaces en la barra de navegación */
+nav ul li a:hover {
+    background-color: #B351F0; /* Fondo morado en hover */
+    color: #FFFFFF; /* Texto blanco en hover */
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 1rem;
+}
+
+/* Estilos para el pie de página */
+footer {
+    font-family: "Poppins", sans-serif;
+    background-color: #000000; /* Fondo negro */
+    color: #FFFFFF; /* Color blanco para el texto */
+    text-align: center;
+    padding: 0.5rem 0; /* Más pequeño */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos para el contenedor del menú desplegable */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Estilos para el contenido del menú desplegable */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F09D51;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition: background-color 0.3s; /* Transición para efectos hover */
+}
+
+/* Estilos para los enlaces dentro del menú desplegable */
+.dropdown-content a {
+    color: #000000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    transition: background-color 0.3s; /* Transición para efectos hover */
+}
+
+/* Mostrar el contenido del menú desplegable al hacer hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Efecto hover para los enlaces dentro del menú desplegable */
+.dropdown-content a:hover {
+    background-color: #B351F0; /* Fondo morado en hover */
+    color: #FFFFFF; /* Texto blanco en hover */
